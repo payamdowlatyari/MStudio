@@ -1,6 +1,6 @@
-Thanks for downloading this theme!
+M-Studio Media Production Company
 
-Theme Name: Rapid
+Author: Payam Dowlatyari
+Author URL: http://www.payamd.com
 Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+
