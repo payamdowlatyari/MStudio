@@ -363,7 +363,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(40, 38, 70, 0.8);
+  background: #F2B705;
   transition: 0.4s;
 }
 
@@ -384,7 +384,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #D96704;
   text-decoration: none;
 }
 
@@ -440,7 +440,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 38, 70, 0.8);
+  background: #F2B705;
   overflow: hidden;
   display: none;
 }
@@ -586,7 +586,7 @@ h6 {
   background: #F2B705;
   color: #3D3D3D;
   box-shadow: none;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   text-align: center;
   min-height: 450px;
 }
