@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #0D0D0D;
+  background: #3D3D3D;
   color: #ebebeb;
   font-family: "Open Sans", sans-serif;
 }
@@ -44,7 +44,7 @@ h6 {
   position: fixed;
   display: none;
   background: #D96704;
-  color: #0D0D0D;
+  color: #3D3D3D;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -59,7 +59,7 @@ h6 {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 /* Prelaoder */
@@ -72,7 +72,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #0D0D0D;
+  background: #3D3D3D;
 }
 
 #preloader:before {
@@ -164,7 +164,7 @@ h6 {
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: #0D0D0D;
+  background-color: #3D3D3D;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -207,7 +207,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #0D0D0D url("../img/intro-bg.jpg") center top no-repeat;
+  background: #3D3D3D url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
 }
 
@@ -233,9 +233,9 @@ h6 {
   padding: 10px 32px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #0D0D0D;
+  color: #3D3D3D;
   background: #D96704;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #intro .intro-info .btn-get-started:hover,
@@ -295,7 +295,7 @@ h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #0D0D0D;
+  background: #3D3D3D;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -376,7 +376,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #0D0D0D;
+  color: #3D3D3D;
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -454,7 +454,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 /*--------------------------------------------------------------
@@ -486,7 +486,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #0D0D0D;
+  background: #3D3D3D;
 }
 
 /* About Us Section
@@ -536,7 +536,7 @@ h6 {
 
 #about .about-img img {
   width: 100%;
-  border: 8px solid #0D0D0D;
+  border: 8px solid #3D3D3D;
   transition: .5s;
 }
 
@@ -581,12 +581,14 @@ h6 {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 0 10px 40px 10px;
-  background: #0D0D0D;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  background: #F2B705;
+  color: #3D3D3D;
+  box-shadow: none;
   transition: all 0.3s ease-in-out;
   text-align: center;
+  min-height: 450px;
 }
 
 #services .box:hover {
@@ -616,7 +618,7 @@ h6 {
 }
 
 #services .title a {
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #services .box:hover .title a {
@@ -692,13 +694,13 @@ h6 {
 }
 
 #call-to-action .cta-title {
-  color: #0D0D0D;
+  color: #3D3D3D;
   font-size: 28px;
   font-weight: 700;
 }
 
 #call-to-action .cta-text {
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #call-to-action .cta-btn {
@@ -711,8 +713,8 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   margin: 10px;
-  border: 3px solid #0D0D0D;
-  color: #0D0D0D;
+  border: 3px solid #3D3D3D;
+  color: #3D3D3D;
 }
 
 #call-to-action .cta-btn:hover {
@@ -821,7 +823,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
@@ -853,7 +855,7 @@ h6 {
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
@@ -863,7 +865,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
@@ -888,7 +890,7 @@ h6 {
 #testimonials .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
-  border: 4px solid #0D0D0D;
+  border: 4px solid #3D3D3D;
   float: left;
 }
 
@@ -896,7 +898,7 @@ h6 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #0D0D0D;
+  color: #3D3D3D;
   margin-left: 140px;
 }
 
@@ -985,14 +987,14 @@ h6 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #team .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #team .member .social {
@@ -1001,7 +1003,7 @@ h6 {
 
 #team .member .social a {
   transition: none;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #team .member .social a:hover {
@@ -1146,7 +1148,7 @@ h6 {
   border-radius: 3px;
   display: inline-block;
   background: #D96704;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #pricing .card .btn:hover {
@@ -1211,12 +1213,12 @@ h6 {
 #footer {
   padding: 0 0 30px 0;
   font-size: 14px;
-  background: #0D0D0D;
+  background: #3D3D3D;
 }
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #0D0D0D;
+  background: #3D3D3D;
 }
 
 #footer .footer-top .footer-info {
@@ -1247,7 +1249,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #D96704;
-  color: #0D0D0D;
+  color: #3D3D3D;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1260,7 +1262,7 @@ h6 {
 
 #footer .footer-top .social-links a:hover {
   background: #ddd;
-  color: #0D0D0D;
+  color: #3D3D3D;
 }
 
 #footer .footer-top h4 {
@@ -1324,7 +1326,7 @@ h6 {
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #0D0D0D;
+  color: #3D3D3D;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1338,7 +1340,7 @@ h6 {
 }
 
 #footer .footer-top .form #sendmessage {
-  color: #0D0D0D;
+  color: #3D3D3D;
   background: #D96704;
   display: none;
   text-align: center;
@@ -1348,7 +1350,7 @@ h6 {
 }
 
 #footer .footer-top .form #errormessage {
-  color: #0D0D0D;
+  color: #3D3D3D;
   display: none;
   background: red;
   text-align: center;
@@ -1409,7 +1411,7 @@ h6 {
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
-  color: #0D0D0D;
+  color: #3D3D3D;
   transition: 0.3s;
 }
 
