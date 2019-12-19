@@ -192,7 +192,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 7px 0;
-  max-height: 36px;
+  max-height: 48px;
 }
 
 .main-pages {
@@ -207,7 +207,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  /* background: #fff url("../img/film.png") center top no-repeat; */
+  background: #fff url("../img/film2.png") center top no-repeat;
   background-size: cover;
 }
 
@@ -636,7 +636,7 @@ h6 {
 /* Why Us Section
 --------------------------------*/
 
-#why-us {
+/* #why-us {
   padding: 60px 0;
 }
 
@@ -683,7 +683,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #3d3d3d;
-}
+} */
 
 /* Call To Action Section
 --------------------------------*/
@@ -738,7 +738,7 @@ h6 {
 /* Portfolio Section
 --------------------------------*/
 
-#portfolio {
+/* #portfolio {
   padding: 60px 0;
 }
 
@@ -824,17 +824,17 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
+  color: #D96704;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #D96704;
+  color: #999999;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #f8fcff;
+  color: #999999;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
@@ -861,7 +861,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #42c3e8;
+  background: #999;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -870,17 +870,17 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
+  background: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 /* Testimonials Section
 --------------------------------*/
 
-#testimonials {
+/* #testimonials {
   padding: 60px 0;
 }
 
@@ -932,12 +932,12 @@ h6 {
 
 #testimonials .owl-dot.active {
   background-color: #D96704;
-}
+} */
 
 /* Team Section
 --------------------------------*/
 
-#team {
+/* #team {
   padding: 60px 0;
 }
 
@@ -1014,12 +1014,12 @@ h6 {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-}
+} */
 
 /* Clients Section
 --------------------------------*/
 
-#clients {
+/* #clients {
   padding: 60px 0;
 }
 
@@ -1051,12 +1051,12 @@ h6 {
 
 #clients .owl-dot.active {
   background-color: #D96704;
-}
+} */
 
 /* Pricing Section
 --------------------------------*/
 
-#pricing {
+/* #pricing {
   padding: 80px 0;
 }
 
@@ -1154,12 +1154,12 @@ h6 {
 
 #pricing .card .btn:hover {
   background: #999;
-}
+} */
 
 /* Frequently Asked Questions Section
 --------------------------------*/
 
-#faq {
+/* #faq {
   padding: 60px 0;
   overflow: hidden;
 }
@@ -1205,7 +1205,7 @@ h6 {
 
 #faq #faq-list a.collapsed i::before {
   content: "\f2c7" !important;
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
