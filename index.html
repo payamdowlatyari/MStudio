@@ -93,9 +93,24 @@
       <div class="row justify-content-center align-self-center">
         <div class="col-md-6 intro-info order-md-first order-last">
           <h2>Visualize<br> Your <span>Creative Ideas</span></h2>
-          <div>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <div class="container">
+<div class="row">
+    <button type="button" class="btn btn-get-started" data-toggle="modal" data-target=".bd-example-modal-xl">Learn More <i class="fa fa-play"></i></button>
+    <div class="col">
+
+    <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="dialog">
+          <div class="modal-content" id="embed-video">
+            <!-- <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            width="1200" height="700" frameborder="0" allowfullscreen></iframe> -->
+            <iframe width="1200" height="600" src="//www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
           </div>
+          <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+    </div>
+</div>
         </div>
   
         <div class="col-md-6 intro-img order-md-last order-first">
@@ -239,30 +254,7 @@
             <div class="form">
               <br>
               <h4>To send us a mesage, kindly use below form</h4>
-              <!-- <form action="https://formspree.io/xayqewqy" method="POST" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage">Unsuccessful</div>
-
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form> -->
-
+  
               <form
               action="https://formspree.io/mnqjpenb"
               method="POST">

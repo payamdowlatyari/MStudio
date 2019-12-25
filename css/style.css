@@ -209,6 +209,7 @@ h6 {
   position: relative;
   background: #fff url("../img/video.jpg") center top no-repeat;
   background-size: cover;
+  margin-bottom: 20em;
 }
 
 #intro .intro-info h2 {
@@ -499,7 +500,8 @@ h6 {
   position: relative;
   /* background: #fff url("../img/film.jpg") center top no-repeat; */
   background-size: cover;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
+  margin-bottom: 20em;
 }
 
 #about .btn-get-started{
@@ -514,6 +516,7 @@ h6 {
   transition: 0.5s;
   color: #fff;
   background: #D96704;
+  
 
 }
 
@@ -522,6 +525,7 @@ h6 {
 }
 #about .about-content {
   padding-top: 40px;
+  /* padding-bottom: 50px; */
 }
 
 #about .about-content h2 {
@@ -910,9 +914,26 @@ h6 {
   text-align: center;
 }
 
+/* #embed-video{
+  flex: inherit;
+  
+
+} */
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
+/* .bd-example-modal-sm{
+  max-width: 1200px;}
+  @media (min-width: 768px) {
+     .bd-example-modal-sm {
+      width: 100%;
+    } 
+  }
+  @media (min-width: 350px) {
+    .bd-example-modal-sm {
+      width: 900px;
+    }
+} */
 
 @media (min-width: 991px) {
   #call-to-action .cta-btn-container {
@@ -1022,3 +1043,4 @@ h6 {
     margin-bottom: 25px;
   }
 }
+
