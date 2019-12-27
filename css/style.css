@@ -202,24 +202,24 @@ h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-/* iframe {
-  border: 1px solid black;
-  width: 100%;
-  align-content: flex-end;
-} */
-/* .modal-content{
-  position: relative; */
-  /* display: inline;  */
-    /* padding: 0; 
-} */
 
-/* .modal-content iframe {
-  position: inherit;
+.wrapper{
+  margin: 0 auto;
+  width: 80%;
+}
+.modal-content{
+  position: relative; 
+    padding: 0; 
+}
+.modal-content iframe {
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-} */
+  width: 100%;
+}
+
 
 .output {
   background: #eee;
