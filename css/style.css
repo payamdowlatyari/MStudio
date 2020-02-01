@@ -252,7 +252,7 @@ h6 {
 #intro .intro-info h2 {
   /* margin-top: 6em; */
   /* margin-left: 50%; */
-  padding-top: 7em;
+  padding-top: 6em;
   color: #3d3d3d;
   
   font-size: 2em;
@@ -262,12 +262,18 @@ h6 {
 #intro .intro-info h2 span {
   color: #D96704;
 }
-/* #intro .intro-info .btn-get-started2{
-  margin-left: 13rem;
+
+#play #image-play{
+  width: 80px;
+
 }
-#intro .intro-info .btn-get-started2:hover{
-  background: #f2f2f2;
-} */
+
+#play #image-play:hover{
+  width: 85px;
+  transition: 0.5s;
+ 
+}
+
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
