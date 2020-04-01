@@ -191,8 +191,6 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  /* padding-bottom: 5px; */
-  /* margin: 7px 0; */
   max-height: 48px;
 }
 
@@ -289,9 +287,12 @@ h6 {
   border-radius: 50%;
   transition: 0.5s;
   color: #fff;
-  /* background: #ffffff; */
   background: transparent;
-  color: #fff;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
 
 #intro .intro-info .btn-get-started:hover,
@@ -557,8 +558,9 @@ h6 {
   position: relative;
   /* background: #fff url("../img/film.jpg") center top no-repeat; */
   background-size: cover;
-  /* padding-bottom: 50px; */
-  margin-bottom: 5em;
+  /* padding-bottom: 2em; */
+  /* margin-bottom: 5em; */
+
 }
 
 #about .btn-get-started{
@@ -674,7 +676,7 @@ h6 {
   box-shadow: none;
   transition: all 0.5s ease-in-out;
   text-align: center;
-  min-height: 500px;
+  min-height: 300px;
 }
 
 #services .box:hover {
