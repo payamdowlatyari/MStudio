@@ -235,7 +235,7 @@ h6 {
   text-align: center;
   height: 125vh;
   position: relative;
-  background: #fff url("../img/intro.jpg") center top no-repeat;
+  background: #fff url("../img/bgMstudios.png") center top no-repeat;
   background-size: cover;
   margin-top: 0em;
   margin-bottom: 5em;
@@ -262,12 +262,13 @@ h6 {
 }
 
 #play #image-play{
-  width: 80px;
+  /* margin-top: 15em; */
+  width: 70px;
 
 }
 
 #play #image-play:hover{
-  width: 85px;
+  width: 75px;
   transition: 0.5s;
  
 }
@@ -300,6 +301,11 @@ h6 {
   /* background: #ffffff; */
   background: transparent;
 
+}
+
+#intro .modal-dialog .close{
+  /* font-size: 3em; */
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
