@@ -233,10 +233,10 @@ h6 {
 #intro {
   width: 100%;
   text-align: center;
-  height: 125vh;
+  height: 130vh;
   position: relative;
   background: #fff url("../img/bgMstudios.png") center top no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-top: 0em;
   margin-bottom: 5em;
   /* margin-left: 5em;
@@ -260,16 +260,26 @@ h6 {
 #intro .intro-info h2 span {
   color: #D96704;
 }
+#play{
+  /* width: max-content; */
+  /* width: fit-content; */
+  width: auto;
+
+}
 
 #play #image-play{
   /* margin-top: 15em; */
-  width: 70px;
+  /* display: block */
+  width: 5em; 
+  margin-left: 3em;
+  /* display: inline-block; */
+  
 
 }
 
 #play #image-play:hover{
-  width: 75px;
-  transition: 0.5s;
+  width: 6em;
+  transition: 1s;
  
 }
 
@@ -306,6 +316,7 @@ h6 {
 #intro .modal-dialog .close{
   /* font-size: 3em; */
   color: #ffffff;
+  font-family: sans-serif;
 }
 
 /*--------------------------------------------------------------
