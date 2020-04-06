@@ -209,7 +209,6 @@ h6 {
 .modal-content{
   position: relative; 
     padding: 0; 
-    /* margin-top: 100; */
 }
 .modal-content iframe {
   position: absolute;
@@ -219,9 +218,8 @@ h6 {
   bottom: 0;
   width: 100%;
 }
-/* .modal-dialog{
-    margin-top: 100;
-  } */
+.modal-dialog{
+  }
 
   .modal{
     margin-top: 50px;
@@ -239,17 +237,12 @@ h6 {
   background-size: contain;
   margin-top: 0em;
   margin-bottom: 5em;
-  /* margin-left: 5em;
-  margin-top: 0em;
-  margin-right: 5em; */
+  
 }
-/* #intro img {
-  width: 80%;
-} */
+
 
 #intro .intro-info h2 {
-  /* margin-top: 6em; */
-  /* margin-left: 50%; */
+ 
   padding-top: 6em;
   color: #3d3d3d;
   
@@ -261,18 +254,14 @@ h6 {
   color: #D96704;
 }
 #play{
-  /* width: max-content; */
-  /* width: fit-content; */
-  width: auto;
-
+ 
 }
 
 #play #image-play{
-  /* margin-top: 15em; */
-  /* display: block */
+ 
   width: 5em; 
-  margin-left: 3em;
-  /* display: inline-block; */
+  margin-bottom: 15em;
+  /* margin-left: 3em; */
   
 
 }
@@ -287,7 +276,6 @@ h6 {
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
-  /* margin-left: 12rem; */
 
   font-size: 13px;
   font-weight: 600;
@@ -314,7 +302,6 @@ h6 {
 }
 
 #intro .modal-dialog .close{
-  /* font-size: 3em; */
   color: #ffffff;
   font-family: sans-serif;
 }
@@ -326,8 +313,7 @@ h6 {
 /* Desktop Navigation */
 
 .main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
+  
 }
 
 .main-nav,
@@ -575,8 +561,7 @@ h6 {
   position: relative;
   /* background: #fff url("../img/film.jpg") center top no-repeat; */
   background-size: cover;
-  /* padding-bottom: 2em; */
-  /* margin-bottom: 5em; */
+ 
 
 }
 
@@ -601,7 +586,6 @@ h6 {
 }
 #about .about-content {
   padding-top: 40px;
-  /* padding-bottom: 50px; */
 }
 
 #about .about-content h2 {
@@ -990,26 +974,11 @@ h6 {
   text-align: center;
 }
 
-/* #embed-video{
-  flex: inherit;
-  
 
-} */
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
-/* .bd-example-modal-sm{
-  max-width: 1200px;}
-  @media (min-width: 768px) {
-     .bd-example-modal-sm {
-      width: 100%;
-    } 
-  }
-  @media (min-width: 350px) {
-    .bd-example-modal-sm {
-      width: 900px;
-    }
-} */
+
 
 @media (min-width: 991px) {
   #call-to-action .cta-btn-container {
