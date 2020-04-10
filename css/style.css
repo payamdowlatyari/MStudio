@@ -253,8 +253,12 @@ h6 {
 #intro .intro-info h2 span {
   color: #D96704;
 }
-#play{
- 
+#play button{
+  border: transparent;
+  background: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 #play #image-play{
