@@ -261,8 +261,8 @@ h6 {
  
   width: 5em; 
   margin-bottom: 15em;
-  /* margin-left: 3em; */
-  
+  -webkit-appearance: none;
+  -moz-appearance: none;
 
 }
 
@@ -292,12 +292,15 @@ h6 {
   cursor:pointer;
   overflow: hidden;
   outline:none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  /* background: #ffffff; */
   background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 
 }
 
