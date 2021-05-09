@@ -128,7 +128,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #3d3d3d;
+  color: #999;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -194,6 +194,11 @@ h6 {
   max-height: 48px;
 }
 
+#header .logo img:hover {
+ opacity: 0.5;
+ transition: 0.5s;
+}
+
 .main-pages {
   margin-top: 60px;
 }
@@ -231,13 +236,13 @@ h6 {
 #intro {
   width: 100%;
   text-align: center;
-  height: 130vh;
+  height: 100vh;
   position: relative;
-  background: #fff url("../img/bgMstudios.png") center top no-repeat;
+  /* background: #fff url("../img/bgMstudios.png") center top no-repeat; */
   background-size: contain;
   margin-top: 0em;
   margin-bottom: 5em;
-  
+  z-index: 1;
 }
 
 #intro .intro-info h2 {
@@ -328,7 +333,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #3d3d3d;
+  color: #999;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -422,7 +427,7 @@ h6 {
   width: 260px;
   padding-top: 18px;
   background: #3d3d3d;
-  transition: 0.4s;
+  transition: 1s;
 }
 
 .mobile-nav * {
@@ -435,8 +440,10 @@ h6 {
   display: block;
   position: relative;
   color: #fff;
+  opacity: 0.75;
   padding: 10px 20px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .mobile-nav a:hover,
@@ -553,7 +560,7 @@ h6 {
 #about {
   padding: 80px 0;
   width: 100%;
-  height: 120vh;
+  /* height: 120vh; */
   position: relative;
   background-size: cover;
 }
@@ -1078,5 +1085,37 @@ h6 {
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
+
+  #intro .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
 }
 
+video.fullscreen {
+  position: absolute;
+  object-fit: cover; 
+  width:100%;
+  height:100%;
+  top: 0%;
+  left: 0; 
+  z-index: -1;
+
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
